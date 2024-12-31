@@ -7,8 +7,14 @@ body {
   padding-left: 1rem !important;
   padding-right: 1rem !important;
 }
-.navbar-nav .active {
+a.nav-link {
+  font-weight: 500;
+  color: #d3cece !important;
+}
+.navbar-nav .active a {
+  font-weight: 600;
   border-bottom: 2px solid #fff;
+  color: #fff !important;
 }
 .carousel-item {
   height: 450px;
@@ -90,4 +96,10 @@ body {
 #faq .card-body,
 #faq .card-header {
   background: #333;
+}
+@media (max-width: 576px) {
+  /* Adjust breakpoint as needed */
+  .col-md-4 img {
+    margin-bottom: 10px;
+  }
 }
