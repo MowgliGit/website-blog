@@ -20,7 +20,7 @@ a.nav-link {
   height: 450px;
 }
 .carousel-image-1 {
-  background-image: url("/img/image1.jpg");
+  background-image: url("../img/image1.jpg");
   background-position: center;
   background-size: cover;
 }
