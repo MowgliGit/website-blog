@@ -1,14 +1,10 @@
 ---
-title: "My First Blog Post"
-date: "2025-03-15"
-description: "This is the first post of my blog!"
+title: "First Post"
+date: 2025-03-15
+image: "/img/first-post-image.jpg"
+description: "This is my first post in the blog."
+body: |
+  # Welcome to my first post!
+
+  This is the body of the post. You can add any content here using **Markdown** syntax.
 ---
-
-# Welcome to My Blog
-
-This is the content of the first blog post. You can use **Markdown** to write formatted text!
-
-- Here's a bullet point
-- Another bullet point
-
-Thanks for reading!
